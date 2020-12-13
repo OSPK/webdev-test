@@ -15,6 +15,5 @@ def test():
 # Define Routes
 @app.route('/<name>')
 def index_name(name=None):
-
-
+	test = 5
 	return render_template('main.html', name=name)
